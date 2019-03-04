@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import FilmList from "../components/FilmList";
+import CheckoutBox from "./checkoutBox";
 
 
 
@@ -40,7 +41,7 @@ class FilmBox extends Component {
             <div className="film-box">
             <h2>Films to be Released</h2>
             <FilmList  data={this.state.data}/>
-            <a href="https://www.imdb.com/calendar/?region=gb">checkout</a>
+            <CheckoutBox></CheckoutBox>
             </div>
             
         )
